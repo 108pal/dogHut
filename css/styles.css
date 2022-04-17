@@ -1,0 +1,123 @@
+h1{
+ font-family: 'Montserrat', sans-serif;;
+    font-size :3.5rem;
+    font-weight: 900  ;
+    line-height: 1.5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#title{
+    background-color:rgb(255, 76, 91);
+    color: white;
+}
+.container-fluid{
+    padding:3% 15% 8%;
+}
+body{
+    font-family:  'Montserrat', sans-serif;
+}
+.download-button{
+    padding:  auto 15px;
+    margin-left: 10px;
+}
+.navbar{
+    padding-bottom:2rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-item{
+padding:0 20px ;
+}
+.nav-link{
+    font-size: 1.2rem;
+
+}
+.title-img{
+   width: 27%;
+    transform: rotate(25deg);
+    padding-top:10px ;
+    padding-left: 10px;
+    position: absolute;
+}
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff7c7c;
+    color: white;
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold  
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+#press{
+    background-color:#ff7c7c;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+@media (max-width:990px)and( min-width:1340px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+
+    }
+}
+#cta{
+    text-align: center;
+    background-color: rgb(255, 76, 91);
+    color: white;
+   padding:7% 15%;
+
+}
+.cta-heading{
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin-left: 10px;
+}
+.icon{
+    margin-bottom: 10px;
+    color:rgb(255, 76, 91) ;
+}
+.icon:hover{
+    color:#ff7c7c;
+}
+
